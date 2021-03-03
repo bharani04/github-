@@ -39,7 +39,7 @@ if(isset($_GET['edit'])){
 					<td><button class="delete" style="background-color:tomato;"><a href="server.php?del=<?php echo $row['id'];?>">delete</a></button>
 					</td>
 			
-				</tr>
+			<tr>
 			<?php } ?>
  		</tbody>
 		</table>
