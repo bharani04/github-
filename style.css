@@ -1,0 +1,67 @@
+body{
+	font-size:18px;
+}
+
+table{
+	width:60%;
+	margin:10px auto;
+	text-align:center;
+	border-collapse:collapse;
+}
+tr{
+	border-bottom:1px solid grey;
+	border-top:1px solid grey;
+	border-left:1px solid grey;
+	border-right:1px solid grey;
+}
+th,td{
+	
+	border:1px solid grey;
+	height:20px;
+    padding:2px;
+}
+
+form{
+	width:35%;
+	margin:20px auto;
+	padding:2px;
+	border:1px solid gray;
+	text-align:center;
+	border-radius:2px;
+}
+.row1 label{
+     display:block;
+     margin:2px;
+}
+.row1 input{
+
+	height:20px;
+    width:90%;
+    padding:2px;
+	border-radius:5px;
+     border:1px solid gray;
+}
+.btn button{
+	padding:4px;
+	color:white;
+    background:#92a8d1;
+    border:none;
+    border-radius:5px;
+}
+.msg{
+	margin:30px;
+	padding:10px;
+	border-radius:5px;
+	color:black;
+	background:grey;
+	border:1px;
+	width:50%;
+}
+.edit a{
+ text-decoration:none;
+ color:black;  
+}
+.delete a{
+	text-decoration:none;
+	color:black;
+}
