@@ -24,6 +24,7 @@ if(isset($_GET['edit'])){
 					<th>Address</th>
 					<th>Email</th>
 					<th>Mobile</th>
+					<th>password</th>
 					<th colspan="2">Action</th>
 				</tr>
 			</thead>
@@ -34,6 +35,7 @@ if(isset($_GET['edit'])){
 					<td><?php echo $row['address']; ?></td>
 					<td><?php echo $row['email']; ?></td>
 					<td><?php echo $row['mobile']; ?></td>
+					<td><?php echo $row['password']; ?></td>
 					<td><button class="edit" style="background-color:lightblue;"><a href="index.php?edit=<?php echo $row['id'];?>">Edit</a></button>
 					</td>
 					<td><button class="delete" style="background-color:tomato;"><a href="server.php?del=<?php echo $row['id'];?>">delete</a></button>
